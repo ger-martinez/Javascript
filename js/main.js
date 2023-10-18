@@ -19,7 +19,6 @@ const INFLACION_ACUMULADA = [0, 0.124, 0.263, 0.42, 0.596, 0.794, 1.016, 1.267, 
 //Funcion de Buscar por Id 
       
 function buscar() {
-  // Selecciona el ID del país del usuario
   const id = prompt(
     "Ingrese el ID del país que desea buscar:\n" +
     "1 - Argentina 🇦🇷\n" +
