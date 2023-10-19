@@ -16,7 +16,7 @@ const paises = [
 //ARRAY --> Inflacion anualizada de Argentina
 const INFLACION_ACUMULADA = [0, 0.124, 0.263, 0.42, 0.596, 0.794, 1.016, 1.267, 1.548, 1.863, 2.219, 2.618, 3.066];
 
-//Funcion de Buscar por Id 
+//Funcion de Buscar por Id
       
 function buscar() {
   const id = prompt(
@@ -133,7 +133,7 @@ function menuInflacion() {
   do {
     // Valida que la opción sea válida
     if (opcion < 1 || opcion > 3) {
-      console.log("Opción inválida.");
+      alert("Opción inválida.");
       return;
     }
     opcion = prompt(" Elija una de las siguientes opciones:\n" +
@@ -157,4 +157,7 @@ function menuInflacion() {
     }
   } while (opcion !== "3");
 }
+
+//*************************************/
+//Ejecutamos la funcion menu principal
 menuPrincipal ()
